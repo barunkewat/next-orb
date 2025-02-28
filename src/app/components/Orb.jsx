@@ -58,7 +58,7 @@ const Orb = (
     let loaderCount = 0;
 
     const getRandomImagePath = () => {
-      /assets/img${Math.floor(Math.random() * totalImages) + 1}.jpg;
+      `/assets/img${Math.floor(Math.random() * totalImages) + 1}.jpg`;
     };
 
 
