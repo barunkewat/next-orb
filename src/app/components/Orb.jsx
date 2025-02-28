@@ -54,7 +54,7 @@ const Orb = (
     controls.enablePan = false;
 
 
-    const textureLoader = new THREE.textureLoader();
+    const textureLoader = new THREE.TextureLoader();
     let loaderCount = 0;
 
     const getRandomImagePath = () => {
